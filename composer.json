@@ -21,6 +21,5 @@
         "psr-4": {
             "SM\\MemcacheBundle\\": ""
         }
-    },
-    "target-dir": "SM/MemcacheBundle"
+    }
 }
