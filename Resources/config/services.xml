@@ -13,9 +13,8 @@
     </parameters>
 
     <services>
-        <service id="sm_memcache" class="Memcache"
-                 factory-class="%sm_memcache.factory%"
-                 factory-method="create">
+        <service id="sm_memcache" class="Memcache" >
+            <factory class="%sm_memcache.factory%" method="create" />
             <argument>%sm_memcache.host%</argument>
             <argument>%sm_memcache.port%</argument>
             <argument>%sm_memcache.use_mock%</argument>
