@@ -12,11 +12,14 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "symfony/framework-bundle": "2.*"
+        "symfony/framework-bundle": "3.*"
     },
     "autoload": {
         "psr-0": {
             "SM\\MemcacheBundle": ""
+        },
+        "psr-4": {
+            "SM\\MemcacheBundle\\": ""
         }
     },
     "target-dir": "SM/MemcacheBundle"
